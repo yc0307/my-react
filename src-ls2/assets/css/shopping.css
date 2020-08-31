@@ -1,0 +1,202 @@
+header {
+  display: block;
+  width: 100%;
+  background-color: #f26b11;
+}
+header .main {
+  height: 0.88rem;
+  width: 6.9rem;
+  margin: 0 auto;
+  background-color: #f26b11;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .main a {
+  color: #fff;
+  font-size: 0.34rem;
+}
+header .main a img {
+  width: 0.55rem;
+  height: 0.11rem;
+  padding-top: 0.09rem;
+}
+.content {
+  margin: 0 auto;
+  height: 1.73rem;
+  width: 100%;
+  box-shadow: 0 -0.01rem 0.1rem 0.01rem #666666, 0 0.01rem 0.1rem 0.01rem #666;
+  margin-top: 0.26rem;
+  margin-bottom: 0.3rem;
+}
+.content .main {
+  width: 7.05rem;
+  margin: 0 auto;
+}
+.content .main .box1 {
+  display: flex;
+}
+.content .main .box1 .div3 {
+  margin-left: 1.41rem;
+  margin-top: 0.9rem;
+}
+.content .main .box1 .div3 span {
+  display: inline-block;
+  width: 0.62rem;
+  height: 0.57rem;
+  border: 1px solid #333333;
+  text-align: center;
+  font-size: 0.2rem;
+  line-height: 0.57rem;
+}
+.content .main .box1 .div3 span:nth-child(2) {
+  border-left: none;
+  border-right: none;
+}
+.content .main .box1 .div3 span:nth-child(1) {
+  border-radius: 0.03rm 0 0 0.03rem;
+}
+.content .main .box1 .div3 span:nth-child(3) {
+  border-radius: 0 0.03rm 0.03rem 0;
+}
+.content .main .box1 div input {
+  width: 0.33rem;
+  height: 0.33rem;
+  border: 0.02rem solid #b02818;
+  border-radius: 50% 50%;
+  margin-top: 0.7rem;
+}
+.content .main .box1 div img {
+  width: 1rem;
+  height: 1rem ;
+  margin: 0.37rem 0.37rem 0 0.44rem;
+}
+.content .main .box1 div p:nth-child(1) {
+  font-size: 0.24rem;
+  color: #333333;
+  margin-top: 0.21rem;
+}
+.content .main .box1 div p:nth-child(2) {
+  font-size: 0.2rem;
+  color: #666666;
+  margin-top: 0.3rem;
+}
+.content .main .box1 div p:nth-child(3) {
+  font-size: 0.24rem;
+  color: #e43c3c;
+  margin-top: 0.26rem;
+}
+.content1 {
+  width: 100%;
+  height: 1.72rem;
+  box-shadow: 0 -0.01rem 0.1rem 0.01rem #666666, 0 0.01rem 0.1rem 0.01rem #666;
+}
+.content1 .main {
+  width: 7.5rem;
+  margin: 0 auto;
+  display: flex;
+}
+.content1 .main div:nth-child(4) {
+  width: 0.98rem;
+  height: 1.72rem;
+  background-color: #e43a3d;
+  color: #fff;
+  font-size: 0.2rem;
+  line-height: 1.72rem;
+  text-align: center;
+  margin-left: 0.06rem;
+}
+.content1 .main .div3 {
+  margin: 0.9rem 0.35rem 0 0.9rem;
+}
+.content1 .main .div3 span {
+  display: inline-block;
+  width: 0.62rem;
+  height: 0.57rem;
+  border: 1px solid #333333;
+  text-align: center;
+  font-size: 0.2rem;
+  line-height: 0.57rem;
+}
+.content1 .main .div3 span:nth-child(2) {
+  border-left: none;
+  border-right: none;
+}
+.content1 .main .div3 span:nth-child(1) {
+  border-radius: 0.03rm 0 0 0.03rem;
+}
+.content1 .main .div3 span:nth-child(3) {
+  border-radius: 0 0.03rm 0.03rem 0;
+}
+.content1 .main div img {
+  width: 1.08rem;
+  height: 0.97rem;
+  margin: 0.32rem 0.35rem 0 0;
+}
+.content1 .main div p:nth-child(1) {
+  font-size: 0.26rem;
+  color: #323232;
+  margin: 0.22rem 0 0.3rem 0;
+}
+.content1 .main div p:nth-child(2) {
+  font-size: 0.2rem;
+  color: #666666;
+  margin-bottom: 0.28rem;
+}
+.content1 .main div p:nth-child(3) {
+  font-size: 0.24rem;
+  color: #e4393f;
+}
+.bottom .main {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 0;
+  width: 7.5rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.bottom .main div:nth-child(1) {
+  font-size: 0.22rem;
+}
+.bottom .main div:nth-child(1) input {
+  width: 0.34rem;
+  height: 0.34rem;
+  border: 0.02rem solid #b02916;
+  border-radius: 50% 50%;
+  vertical-align: middle;
+  margin-left: 0.2rem;
+}
+.bottom .main div:nth-child(2) P:nth-child(1) {
+  margin-left: 1.6rem;
+  font-size: 0.28rem;
+  color: #333333;
+}
+.bottom .main div:nth-child(2) P:nth-child(1) span {
+  color: #e5383a;
+}
+.bottom .main div:nth-child(2) p:nth-child(2) {
+  font-size: 0.18rem;
+  color: #a3a3a3;
+  margin: 0.17rem 0 0 1.15rem;
+}
+.bottom .main div:nth-child(3) {
+  width: 2.47rem;
+  height: 1.15rem;
+  background-color: #f26b11;
+  color: #fff;
+  line-height: 1.15rem;
+  text-align: center;
+  font-size: 0.28rem;
+  margin-left: 0.38rem;
+}
+#img1{
+  width: .4rem;
+  height: .4rem;
+ margin-top: .6rem;
+}
+#im{
+  width: .4rem;
+  height: .4rem;
+  
+}

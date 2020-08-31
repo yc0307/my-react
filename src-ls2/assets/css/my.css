@@ -1,0 +1,118 @@
+header {
+  width: 100%;
+  background-color: #f26b11;
+}
+header .main {
+  width: 6.9rem;
+  height: 0.88rem;
+  background-color: #f26b11;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .main span {
+  font-size: 0.28rem;
+  color: #fff;
+}
+header .main img {
+  width: 0.56rem;
+  height: 0.11rem;
+}
+.top {
+  width: 100%;
+  background-color: #f26b11;
+}
+.top .top_main {
+  width: 6.9rem;
+  height: 2.06rem;
+  margin: 0 auto;
+  display: flex;
+  background-color: #f26b11;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.top .top_main .left img {
+  width: 1.53rem;
+  height: 1.53rem;
+}
+.top .top_main .left p:nth-child(2) {
+  position: absolute;
+  top: 0.7rem;
+  left: 1.77rem;
+  font-size: 0.3rem;
+  color: #fff;
+}
+.top .top_main .left p:nth-child(3) {
+  position: absolute;
+  font-size: 0.22rem;
+  top: 1.24rem;
+  left: 1.77rem;
+}
+.top .top_main .right a {
+  display: block;
+  width: 1.6rem;
+  height: 0.7rem;
+  background-color: #fff;
+  text-align: center;
+  font-size: 0.26rem;
+  line-height: 0.7rem;
+  color: #f26b11;
+  border-radius: 0.05rem;
+}
+nav {
+  border-bottom: 0.21rem solid #f1f1f1;
+}
+nav .main {
+  width: 6.34rem;
+  height: 1.42rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .main div {
+  text-align: center;
+}
+nav .main div img {
+  width: 0.33rem;
+  height: 0.31rem;
+  margin-bottom: 0.2rem;
+}
+nav .main div img p a {
+  display: block;
+  font-size: 0.22rem;
+  color: #676767;
+}
+.content1 .main {
+  width: 6.93rem;
+  margin: 0 auto;
+}
+.content1 .main .list {
+  width: 6.93rem;
+  height: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d9d9d9;
+}
+.content1 .main .list a {
+  display: block;
+  font-size: 0.22rem;
+  color: #616161;
+}
+.content1 .main .list a span {
+  color: #f36b05;
+  margin-right: 0.22rem;
+}
+.content1 .main .list a img {
+  width: 0.33rem;
+  height: 0.33rem;
+  vertical-align: middle;
+  margin-right: 0.26rem;
+}
+.content1 .last {
+  margin-bottom: 1.3rem;
+}
+

@@ -1,0 +1,102 @@
+header {
+  width: 100%;
+  background-color: #f26b11;
+}
+header .main {
+  height: 0.88rem;
+  width: 7.04rem;
+  margin: 0 auto;
+  background-color: #f26b11;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .main a {
+  color: #fff;
+  font-size: 0.34rem;
+}
+header .main a img {
+  width: 0.55rem;
+  height: 0.11rem;
+  padding-top: 0.09rem;
+}
+.content .main {
+  width: 7.5rem;
+  margin: 0 auto;
+  display: flex;
+}
+.content .main div:nth-child(1) ul {
+  border-right: 1px solid #d9d9d9;
+  width: 1.63rem;
+  margin-top: 0.4rem;
+}
+.content .main div:nth-child(1) ul li {
+  margin-bottom: 0.61rem;
+}
+.content .main div:nth-child(1) ul li a {
+  display: block;
+  padding: 0.14rem 0 0.14rem 0.38rem;
+  font-size: 0.24rem;
+  border-left: 0.08rem solid #fff;
+  box-sizing: border-box;
+  color: #666;
+}
+.content .main div:nth-child(1) ul li a:hover {
+  color: #f26b11;
+  border-left: 0.08rem solid #f26b11;
+}
+.content .main div:nth-child(2) .top {
+  font-size: 0.26rem;
+  color: #454545;
+  margin-top: 0.56rem;
+}
+.content .main div:nth-child(2) .top a:nth-child(1) {
+  display: inline-block;
+  margin: 0 3.5rem 0.5rem 0.55rem;
+}
+.content .main div:nth-child(2) .center {
+  display: flex;
+  width: 4.9rem;
+  height: 4.2rem;
+  margin-left: 0.26rem;
+  flex-wrap: wrap ;
+  text-align: center;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.content .main div:nth-child(2) .center img {
+  width: 1.24rem;
+  height: 1.42rem;
+}
+.content .main div:nth-child(2) .center p a {
+  display: block;
+  margin-top: 0.27rem;
+  font-size: 0.22rem;
+  color: #868686;
+}
+.content .main div:nth-child(2) .top1 {
+  font-size: 0.26rem;
+  color: #454545;
+  margin-top: 1.13rem;
+}
+.content .main div:nth-child(2) .top1 a:nth-child(1) {
+  display: inline-block;
+  margin: 0 3.5rem 0.5rem 0.55rem;
+}
+.content .main div:nth-child(2) .center1 {
+  margin-left: 0.26rem;
+  text-align: center;
+  display: flex;
+  width: 5.06rem;
+  justify-content: space-between;
+}
+.content .main div:nth-child(2) .center1 img {
+  width: 0.78rem;
+  height: 1.32rem;
+}
+.content .main div:nth-child(2) .center1 p a {
+  display: block;
+  margin-top: 0.33rem;
+  font-size: 0.24rem;
+  color: #878787;
+}
